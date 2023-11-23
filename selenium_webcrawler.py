@@ -15,7 +15,7 @@ url = "https://www.google.com/"
 chrome.get(url)
 
 content = chrome.find_element(By.ID,'APjFqb')
-content.send_keys("Selenium Document")
+content.send_keys("hahapiyan")
 content.send_keys(Keys.RETURN)
 
 # 等待 5 秒鐘以載入頁面
